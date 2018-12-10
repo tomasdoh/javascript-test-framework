@@ -1,6 +1,6 @@
-# javascript-test-framework
-Making a Javascript testing framework from scratch
+# Javascript Test Framework
 
+Making a Javascript testing framework from scratch
 
 ## Plan
 
