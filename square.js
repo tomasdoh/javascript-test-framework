@@ -1,7 +1,7 @@
 function Square (length) {
-  this.length = length
+    this.length = length
   };
 
 Square.prototype.area = function () {
-  this.length * this.length
-};
+  return this.length * this.length;
+}

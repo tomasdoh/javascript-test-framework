@@ -1,3 +1,5 @@
+// Test framework
+
 var describe = function (description, fn) {
   console.log(description);
   fn();
@@ -9,10 +11,10 @@ var it = function(message, fn) {
 
 var assertEqual = function(value, assertion) {
     if (value === assertion) {
-      console.log('Pass! 😀')
-      return true
+      var output = document.getElementById("output");
+      output.innerHTML = 'Pass! 😀';
     } else {
-      console.log('Fail. ' + value + ' does not equal ' + assertion)
-      return false
+      var output = document.getElementById("output");
+      output.innerHTML = 'Fail. ' + value + ' does not equal ' + assertion;
     }
   };
