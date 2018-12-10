@@ -4,6 +4,10 @@ var describe = function (description, fn) {
   fn();
 };
 
-var it = function (message, callback) {
+var it = function(message, callback) {
   describe(" " + message, fn);
+};
+
+var expect = function(value) {
+  return value;
 };
